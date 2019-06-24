@@ -34,7 +34,6 @@ fieldset {
     justify-content: flex-end;
 }
 .form-row input, .form-row select {
-    width: 200px;
     -webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: content-box;    /* Firefox, other Gecko */
     box-sizing: content-box;      
@@ -47,6 +46,7 @@ fieldset {
 .form-row input {
     flex: 1;
     height: 22px;
+    width: 200px;
 }
 .form-row select {
     flex: 1;
@@ -54,6 +54,7 @@ fieldset {
     background: white;
     -webkit-appearance: none;
     border-radius: 0px;
+    width: fit-content;
 }
 
 .required span:before {
