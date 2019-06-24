@@ -12,7 +12,7 @@
        <section role="region">
          <h3 class="form-title">iTechAG Interview Form</h3>
            
-        <form class="interview-form" onSubmit="validateEmail(this)">
+        <form class="interview-form" id="interview-form" onclick="validateEmail()">
           <fieldset>
             <ul class="wrapper">
               <li class="form-row">
@@ -114,8 +114,8 @@
                 </li>
 
               <li class="form-row btn"> 
-                <button type="submit" onSubmit="validateEmail">Submit</button>
-                <button type="button">Cancel</button>
+                <button type="button">Submit</button>
+                <button type="button" onClick="resetForm()">Reset</button>
               </li>
             </ul>
           </fieldset>

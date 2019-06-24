@@ -8,3 +8,7 @@ function validateEmail() {
         alert("Emails do not match.")
     }
   }
+
+function resetForm() {
+   document.getElementById("interview-form").reset()
+}
